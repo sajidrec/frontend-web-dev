@@ -1,0 +1,272 @@
+/* global section starts */
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+a,
+a:hover,
+a:visited,
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2f7e9b;
+}
+
+/* global section ends */
+
+/* header area starts */
+
+.main-header {
+  height: 125px;
+  width: 100%;
+  background: #000;
+}
+
+.header-top-border {
+  height: 6px;
+  width: 100%;
+  background: #40aed7;
+}
+
+.header-logo {
+  margin: 45px 0px;
+  height: 32px;
+  width: 190px;
+}
+/* logo section complete */
+
+.header-link-list {
+  display: flex;
+  list-style-type: none;
+  max-height: 120px;
+}
+
+.header-links {
+  color: #fff;
+  display: block;
+  padding: 13px 20px;
+  margin: 35px 0px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.header-links:hover,
+.header-active-link {
+  background: #40aed7;
+  border: 2px solid #40aed7;
+  padding: 11px 18px;
+  border-radius: 10px;
+  transition: background 0.32s;
+  color: white;
+}
+
+/* header area ends */
+
+/* shout area starts */
+
+.shout-quote {
+  font-size: 122px;
+  padding: 12px 0px;
+  color: #333;
+}
+
+/* shout area ends */
+
+/* service area starts */
+
+.service-info {
+  padding: 21px 47px;
+  text-align: center;
+  border: 1px solid #e4e4e4;
+}
+
+.service-icon {
+  width: 130px;
+  height: 123px;
+}
+
+.service-icon-2 {
+  font-size: 123px;
+}
+
+.service-info h3 {
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.service-info p {
+  font-size: 12px;
+}
+
+/* hover icon image change */
+
+.service-info:hover {
+  color: white;
+  background: #40aed7;
+  transition: 0.35s;
+}
+
+.service-info:hover .icon-01-img {
+  content: url("../images/service-one-icon-hover.png");
+}
+.service-info:hover .icon-03-img {
+  content: url("../images/service-two-icon-hover.png");
+}
+.service-info:hover .icon-04-img {
+  content: url("../images/service-three-icon-hover.png");
+}
+
+/* service area ends */
+
+/* team area starts */
+
+/* quote area */
+.meet-our-team-quotes {
+  font-size: 124px;
+  padding: 10px 0px;
+  color: #d3d3d3;
+  text-align: center;
+}
+
+/* profile area */
+
+.profile-name {
+  text-align: center;
+  font-size: 16px;
+  color: #333333;
+  padding-top: 17px;
+}
+
+.profile-quote {
+  font-size: 13px;
+  color: #979797;
+}
+
+.profile-link {
+  font-size: 13px;
+  color: #40aed7;
+  text-align: right;
+  margin-bottom: 62px;
+}
+
+/* team area ends */
+
+/* footer statrs */
+
+/* footer top */
+
+.footer-top-wrapper {
+  padding-top: 40px;
+  padding-bottom: 65px;
+}
+
+.footer-top {
+  background: #303030;
+  color: white;
+}
+
+.footer-title {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/* blog section */
+
+.blog h4 {
+  font-size: 13px;
+  color: #979797;
+}
+
+.blog h5 {
+  font-size: 10px;
+  color: #666;
+}
+
+.blog-admin {
+  color: #3fadd7;
+}
+
+.blog h5 {
+  font-size: 10px;
+  color: #979797;
+}
+.blog h6 {
+  font-size: 10px;
+  color: #979797;
+}
+
+.blog p {
+  font-size: 13px;
+  color: #979797;
+}
+
+.blog a {
+  font-size: 13px;
+  color: #40aed7;
+}
+
+/* quick link section */
+
+.footer-quicklinks ul {
+  list-style-type: none;
+}
+
+.footer-quicklinks-link {
+  font-size: 13px;
+  color: #40aed7;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #404040;
+}
+
+/* tweet section */
+
+.tweet-para {
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+.tweet-tag {
+  color: #3fadd7;
+}
+
+/* contact us from */
+
+.footer-contact-us-form .footer-contact-us-inp {
+  font-size: 13px;
+  border: none;
+  background: #222;
+  color: #989898;
+}
+
+.footer-contact-us-form input[type="submit"] {
+  font-size: 12px;
+}
+
+.footer-contact-us-form .footer-contact-us-inp::placeholder {
+  color: #989898;
+}
+
+/* footer copywrite section */
+
+#footer-copywrite {
+  background: #2b2b2b;
+  font-size: 13px;
+  color: #979797;
+}
+
+.cw-info {
+  padding-top: 20px;
+}
+
+/* footer ends */
