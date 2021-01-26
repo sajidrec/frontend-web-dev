@@ -1,0 +1,79 @@
+/* global section */
+
+:root {
+  --global-danda-color: #3a606e;
+  --global-circle-color: #e0e0e0;
+}
+
+/* circle section */
+
+.circle,
+.circle-reverse {
+  position: relative;
+  margin: auto;
+  margin-top: 1vh;
+  height: 40vmin;
+  width: 40vmin;
+  background: var(--global-circle-color);
+  border-radius: 50%;
+  overflow: hidden;
+  /* animation */
+  animation-name: circle-rotator-forward;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  margin-bottom: 2px;
+}
+
+/* danda section */
+
+.vertical-danda {
+  position: absolute;
+  left: 15vmin;
+  height: 40vmin;
+  width: 10vmin;
+  background: var(--global-danda-color);
+}
+
+.horizontal-danda {
+  position: absolute;
+  top: 15vmin;
+  width: 50vmin;
+  height: 10vmin;
+  background: var(--global-danda-color);
+}
+
+/* reverse section */
+
+.circle-reverse {
+  animation-direction: reverse;
+  animation-name: circle-rotator-backward;
+}
+
+/* animation section */
+
+@keyframes circle-rotator-forward {
+  25% {
+    transform: rotate(180deg);
+  }
+  50% {
+    transform: translateX(30vw);
+  }
+
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes circle-rotator-backward {
+  25% {
+    transform: rotate(-180deg);
+  }
+  50% {
+    transform: translateX(-30vw);
+  }
+
+  100% {
+    transform: rotate(-180deg);
+  }
+}
